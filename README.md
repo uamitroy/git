@@ -60,3 +60,24 @@ git reset --hard <Commit id>
   
     git config  user.name "Your Name"   
    git config    user.email "Your Email"    
+
+    
+  # Create a new git tag
+
+$ git tag <tag_name>
+
+
+# Create a git tag from a commit
+
+
+$ git tag <tag_name> <commit_sha>
+
+# Git tag can also be created from the commit SHA with an annotation tag by adding “-a” and “-m” options.
+
+$ git tag -a <tag_name> <commit_sha> -m "Your message"
+ 
+
+# View available git tags
+
+  $ git tag
+  
