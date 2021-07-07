@@ -1,7 +1,7 @@
-#list of all commits
+# list of all commits
     git log
 
-#list of recent coomits by number
+# list of recent coomits by number
     git log -n 3
 
 # list of commits by autor/commiter
@@ -24,29 +24,29 @@
   
   git log -- main.py
 
-#Filter by Content
+# list by Content
 
 git log -S"# Introduction"
 
 
-#git rollback 
+# git rollback 
 
 git reset --hard <Commit id>
 
 
-#git create branch
+# git create branch
 
   git checkout -b < branch name >
 
-#git switch to branch
+# git switch to branch
   
   git checkout < branch name >
 
-#git branch check
+# git branch check
 
   git branch
 
 
-#git merge
+# git merge
   
  git merge master amit
