@@ -83,4 +83,8 @@ $ git tag -a <tag_name> <commit_sha> -m "Your message"
   
 # tag push
 
-  git push origin v1.0     
+  git push origin v1.0
+    
+# git clone from a specific branch
+    
+    git clone -b <branch> <remote_repo>
