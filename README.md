@@ -81,3 +81,6 @@ $ git tag -a <tag_name> <commit_sha> -m "Your message"
 
   $ git tag
   
+# tag push
+
+  git push origin v1.0     
