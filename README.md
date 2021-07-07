@@ -50,3 +50,13 @@ git reset --hard <Commit id>
 # git merge
   
  git merge master amit
+    
+  # git config set globally
+
+   git config --global user.name "Your Name"   
+   git config --global user.email "Your Email"  
+
+ # git config set into the repo
+  
+    git config  user.name "Your Name"   
+   git config    user.email "Your Email"    
