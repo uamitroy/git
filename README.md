@@ -91,4 +91,4 @@ $ git tag -a <tag_name> <commit_sha> -m "Your message"
     
     
     
- # <a target="_blank" href="mailto:no-one@snai1mai1.com?subject=look at this website&body=Hi, I found this website and thought you might like it http://www.geocities.com/wowhtml/">Mail</a>   
+ # <a target="_blank" href="mailto:no-one@snai1mai1.com?subject=look at this website&body=Hi, I found this website and thought you might like it https://github.com/ameetroy/git">Mail</a>   
