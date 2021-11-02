@@ -91,4 +91,15 @@ $ git tag -a <tag_name> <commit_sha> -m "Your message"
     
 # git config --get remote.origin.url    
     
+
+# Importtants Commands
+    chmod 400 playa2021updated.pem
+    ssh -L 8000:127.0.0.1:80 -i playa2021updated.pem bitnami@infinitereality.5edev.com
+     
+    <!-- import database -->
+    mysql -u DB_USER_NAME -p DB_NAME < YOUR_SQL_FILE_NAME.sql
+
+    <!-- export database -->
+    mysqldump -u DB_USER_NAME -p DB_NAME > WHAT_FILE_NAME_YOU_WANT.sql
+    
  # <a target="_blank" href="mailto:no-one@snai1mai1.com?subject=look at this website&body=Hi, I found this website and thought you might like it https://github.com/ameetroy/git">Mail</a>   
