@@ -102,4 +102,11 @@ $ git tag -a <tag_name> <commit_sha> -m "Your message"
     <!-- export database -->
     mysqldump -u DB_USER_NAME -p DB_NAME > WHAT_FILE_NAME_YOU_WANT.sql
     
+    <!-- commands database -->
+    mysql -h ip-172-31-22-161.us-east-2.compute.internal -u sandbox_user -p dafribank_sandbox
+    mysql --host=Hostname --port=3306 --user=ebdb --password=12334558393
+
+
+
+    
  # <a target="_blank" href="mailto:no-one@snai1mai1.com?subject=look at this website&body=Hi, I found this website and thought you might like it https://github.com/ameetroy/git">Mail</a>   
