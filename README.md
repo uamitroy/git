@@ -33,7 +33,10 @@ git log -S"# Introduction"
 
 git reset --hard <Commit id>
 
+# git checkout new branch
 
+git checkout -b ＜new-branch＞
+    
 # git create branch
 
   git checkout -b < branch name >
