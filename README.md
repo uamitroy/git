@@ -119,6 +119,9 @@ $ git tag -a <tag_name> <commit_sha> -m "Your message"
     RewriteRule . index.php [L]
     
 # ssh-keygen -t rsa 
+
+# composer install --ignore-platform-reqs
+
     
  # Composer Commands
     
