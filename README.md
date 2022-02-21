@@ -117,7 +117,9 @@ $ git tag -a <tag_name> <commit_sha> -m "Your message"
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule . index.php [L]
-
+    
+# ssh-keygen -t rsa 
+    
  # Composer Commands
     
    composer self-update
