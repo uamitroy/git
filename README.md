@@ -130,4 +130,7 @@ $ git tag -a <tag_name> <commit_sha> -m "Your message"
    composer require vendor/package:version 
    composer reinstall <package-name> 
     
+ # git clone ssl error
+    git config --global http.sslVerify true
+    
  # <a target="_blank" href="mailto:no-one@snai1mai1.com?subject=look at this website&body=Hi, I found this website and thought you might like it https://github.com/ameetroy/git">Mail</a>   
