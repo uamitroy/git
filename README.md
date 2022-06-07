@@ -137,4 +137,13 @@ $ git tag -a <tag_name> <commit_sha> -m "Your message"
     git remote add origin  https://USERNAME:PASSWORD@github.com/username/reponame.git
     
     
+# adding ssh key to github
+
+  ssh-keygen -t rsa -b 4096 -C "uamitroy@gmail.com"
+
+  SHA256:DduVFosjr8LW7WDOVPTVZ1aHqx7cqyfRAyTAJ9I12VY
+
+  git config remote.origin.url git@github.com:outgood/framework.git    
+    
+    
  # <a target="_blank" href="mailto:no-one@snai1mai1.com?subject=look at this website&body=Hi, I found this website and thought you might like it https://github.com/ameetroy/git">Mail</a>   
